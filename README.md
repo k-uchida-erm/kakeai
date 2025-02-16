@@ -1,5 +1,5 @@
 # kakeai
 ### ブランチ
 1 main<br>
-2 kaname_dev<br>
-3 yuhi_dev<br>
+2 kaname<br>
+3 yuhi<br>
