@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.http import JsonResponse
+from .models import Transaction
 
-# Create your views here.
+def get_transactions(request):
+    data = list(Transaction.objects.values())  # トランザクションデータをリスト化
+    return JsonResponse({"transactions": data})
